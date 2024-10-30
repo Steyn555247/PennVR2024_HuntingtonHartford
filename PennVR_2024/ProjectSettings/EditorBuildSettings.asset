@@ -15,9 +15,12 @@ EditorBuildSettings:
     path: Assets/XRF_Scenes/ExampleScene_Interaction_02.unity
     guid: 2c822b16ce570f24ea870a981c76b94a
   - enabled: 1
+    path: Assets/XRF_Scenes/HuntingtonHartford Disk 1 internal.unity
+    guid: 15149cb98f5493e4d9fd423e54af557d
+  - enabled: 0
     path: Assets/XRF_Scenes/ExampleScene_Lighting_Bright Scene.unity
     guid: cdb9681642ca1194fbf40610f9ac5697
-  - enabled: 1
+  - enabled: 0
     path: Assets/XRF_Scenes/ExampleScene_Lighting_Dark Scene.unity
     guid: 04154da2b57ceb846adf509a51f888ae
   - enabled: 0
