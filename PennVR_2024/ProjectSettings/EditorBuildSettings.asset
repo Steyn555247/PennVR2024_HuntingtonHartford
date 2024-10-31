@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/XRF_Scenes/ExampleScene_Interaction_02.unity
     guid: 2c822b16ce570f24ea870a981c76b94a
-  - enabled: 1
+  - enabled: 0
     path: Assets/XRF_Scenes/HuntingtonHartford Disk 1 internal.unity
     guid: 15149cb98f5493e4d9fd423e54af557d
   - enabled: 0
@@ -38,6 +38,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/XRF_Scenes/Archive/Testing New Scripts.unity
     guid: 1a97b34716534ca47945b5d467f09abe
+  - enabled: 1
+    path: Assets/STUDENT_Scenes/MidtermScene_Discs.unity
+    guid: 26d5ff5638526a943837f3a7b88ac657
+  - enabled: 1
+    path: Assets/STUDENT_Scenes/MidtermScene_Suite.unity
+    guid: 18b12318a8be67e4ea9810fafbd64e17
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8ce81e0bf68ac3e4abd42d74b53a395e, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 52eaa7aad8898ee4c8264272118be8eb, type: 2}
