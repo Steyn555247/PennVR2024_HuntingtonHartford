@@ -23,7 +23,7 @@ public class Ball1 : MonoBehaviour
     public void Shoot()
     {
         // Randomize the x-force between -0.5 and 0.5
-        float randomX = Random.Range(-0.5f, 0.5f);
+        float randomX = Random.Range(-0.1f, 0.1f);
         Vector3 initialForce = new Vector3(randomX, yForce, zForce);
 
         Debug.Log("Random X Force: " + randomX); // Log the chosen x-force
