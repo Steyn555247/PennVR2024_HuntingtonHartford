@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 105
+  controlID: 17
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -969,11 +969,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.049613167, y: -0.80427873, z: 0.06553044, w: -0.58992743}
     speed: 2
-    m_Value: {x: -0.05045491, y: -0.8035231, z: 0.06668369, w: -0.5893711}
+    m_Value: {x: 0.049613167, y: 0.80427873, z: -0.06553044, w: 0.58992743}
   m_Size:
     m_Target: 1772.7429
     speed: 2
-    m_Value: 1696.4047
+    m_Value: 1772.7429
   m_Ortho:
     m_Target: 0
     speed: 2
