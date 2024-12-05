@@ -1,0 +1,12 @@
+# Blender MTL File: 'indflatable pool ring.blend'
+# Material Count: 1
+
+newmtl Material.001
+Ns 370.737502
+Ka 0.577481 0.577481 0.577481
+Kd 0.800000 0.348470 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 4.550000
+d 1.000000
+illum 3
