@@ -11699,6 +11699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64a4a758401ad0f468f181fec148a1a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destructionDelay: 5
 --- !u!114 &107744489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34754,6 +34755,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad50fc904303c744885fb815a4797ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextTarget: {fileID: 0}
+  audioSource: {fileID: 0}
+  hitSound: {fileID: 0}
+  additionalHitSounds: []
+  delayBetweenClips: 0.5
+  targetsToToggle: []
+  activateTargets: 1
 --- !u!65 &624821544
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52603,12 +52611,13 @@ MonoBehaviour:
   isTeleporter: 0
   SceneToLoad: 
   NumberOfThingsToTurnON: 3
-  NumberOfThingsToTurnOFF: 0
+  NumberOfThingsToTurnOFF: 1
   StartOFFClickON:
   - {fileID: 367094326}
   - {fileID: 836325877}
   - {fileID: 753006994}
-  StartONClickOFF: []
+  StartONClickOFF:
+  - {fileID: 863565075}
   originalPos: {x: 0, y: 0, z: 0}
   isGrabbable: 0
   handGrab: 0
@@ -52636,7 +52645,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -52701,8 +52710,8 @@ Transform:
   m_GameObject: {fileID: 863565075}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.49066308, z: -0, w: 0.8713494}
-  m_LocalPosition: {x: 41.14, y: 30.41, z: -52.98}
-  m_LocalScale: {x: 8.494786, y: 1, z: 5.370525}
+  m_LocalPosition: {x: 44.89, y: 30.41, z: -46.94}
+  m_LocalScale: {x: 29.814152, y: 1, z: 15.413405}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -52803,6 +52812,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad50fc904303c744885fb815a4797ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextTarget: {fileID: 0}
+  audioSource: {fileID: 0}
+  hitSound: {fileID: 0}
+  additionalHitSounds: []
+  delayBetweenClips: 0.5
+  targetsToToggle: []
+  activateTargets: 1
 --- !u!65 &865702069
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52998,13 +53014,14 @@ MonoBehaviour:
   isTeleporter: 0
   SceneToLoad: 
   NumberOfThingsToTurnON: 4
-  NumberOfThingsToTurnOFF: 0
+  NumberOfThingsToTurnOFF: 1
   StartOFFClickON:
   - {fileID: 1638065696}
   - {fileID: 1262407016}
   - {fileID: 1743478761}
   - {fileID: 1154026194}
-  StartONClickOFF: []
+  StartONClickOFF:
+  - {fileID: 877911211}
   originalPos: {x: 0, y: 0, z: 0}
   isGrabbable: 0
   handGrab: 0
@@ -53032,7 +53049,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -53096,13 +53113,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877911211}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7995709, z: -0, w: 0.60057163}
-  m_LocalPosition: {x: 45.26, y: 30.41, z: -61.25}
-  m_LocalScale: {x: 4.7699924, y: 1, z: 3.1193085}
+  m_LocalRotation: {x: -0, y: 0.9699477, z: -0, w: 0.24331379}
+  m_LocalPosition: {x: 44.98, y: 26.659, z: -67.63}
+  m_LocalScale: {x: 8.606497, y: 7.30561, z: 5.628168}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 106.178, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 151.836, z: 0}
 --- !u!1 &886917286
 GameObject:
   m_ObjectHideFlags: 0
@@ -94913,6 +94930,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad50fc904303c744885fb815a4797ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextTarget: {fileID: 0}
+  audioSource: {fileID: 0}
+  hitSound: {fileID: 0}
+  additionalHitSounds: []
+  delayBetweenClips: 0.5
+  targetsToToggle: []
+  activateTargets: 1
 --- !u!65 &1426408096
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -123873,12 +123897,13 @@ MonoBehaviour:
   isTeleporter: 0
   SceneToLoad: 
   NumberOfThingsToTurnON: 3
-  NumberOfThingsToTurnOFF: 0
+  NumberOfThingsToTurnOFF: 1
   StartOFFClickON:
   - {fileID: 1066135001}
   - {fileID: 1855472014}
   - {fileID: 108578399}
-  StartONClickOFF: []
+  StartONClickOFF:
+  - {fileID: 1846044575}
   originalPos: {x: 0, y: 0, z: 0}
   isGrabbable: 0
   handGrab: 0
@@ -123906,7 +123931,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -123971,8 +123996,8 @@ Transform:
   m_GameObject: {fileID: 1846044575}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.35361996, z: -0, w: 0.93538916}
-  m_LocalPosition: {x: 31.58, y: 32.06, z: -67.17}
-  m_LocalScale: {x: 10.442186, y: 1, z: 3.6858306}
+  m_LocalPosition: {x: 31.15, y: 32.06, z: -53.24}
+  m_LocalScale: {x: 36.787823, y: 4.9824, z: 18.434227}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -132388,12 +132413,13 @@ MonoBehaviour:
   isTeleporter: 0
   SceneToLoad: 
   NumberOfThingsToTurnON: 3
-  NumberOfThingsToTurnOFF: 0
+  NumberOfThingsToTurnOFF: 1
   StartOFFClickON:
   - {fileID: 806307380}
   - {fileID: 1639428341}
   - {fileID: 1929220161}
-  StartONClickOFF: []
+  StartONClickOFF:
+  - {fileID: 2115993844}
   originalPos: {x: 0, y: 0, z: 0}
   isGrabbable: 0
   handGrab: 0
@@ -132421,7 +132447,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -132487,7 +132513,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.061833974, z: -0, w: 0.9980865}
   m_LocalPosition: {x: 24.48, y: 32.06, z: -86.87}
-  m_LocalScale: {x: 6.904187, y: 1, z: 1.6012819}
+  m_LocalScale: {x: 6.904187, y: 5.5206, z: 1.6012819}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -133825,6 +133851,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1365189805910756265}
+  - component: {fileID: 2448734117054831194}
   m_Layer: 0
   m_Name: Seat
   m_TagString: Untagged
@@ -133832,6 +133859,40 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2448734117054831194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2448734117054831193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d18d7b5cc9e724a83799b131e0d713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HighlightMaterial: {fileID: 0}
+  myType: 5
+  ObjectWithAnimation: {fileID: 0}
+  isSelected: 0
+  isTeleporter: 0
+  SceneToLoad: 
+  NumberOfThingsToTurnON: 1
+  NumberOfThingsToTurnOFF: 1
+  StartOFFClickON: []
+  StartONClickOFF: []
+  originalPos: {x: 0, y: 0, z: 0}
+  isGrabbable: 0
+  handGrab: 0
+  theAudioSource: {fileID: 0}
+  theAudioClip: {fileID: 0}
+  thingToMove: {fileID: 0}
+  transformPositionToMoveTo: {fileID: 0}
+  EventToCall:
+    m_PersistentCalls:
+      m_Calls: []
+  thingToChange: {fileID: 0}
+  newParentObject: {fileID: 0}
 --- !u!33 &2497233724172117387
 MeshFilter:
   m_ObjectHideFlags: 0
