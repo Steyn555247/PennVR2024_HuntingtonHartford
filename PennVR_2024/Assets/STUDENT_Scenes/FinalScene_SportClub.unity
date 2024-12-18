@@ -11246,6 +11246,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3527514825973958380, guid: 82ca7d7740119d04399447f5bb5c94c3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8a206f2618b24cf4d87ef940f997dfaf, type: 2}
+    - target: {fileID: -1187187508364066995, guid: 82ca7d7740119d04399447f5bb5c94c3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8a206f2618b24cf4d87ef940f997dfaf, type: 2}
+    - target: {fileID: -361828790898352677, guid: 82ca7d7740119d04399447f5bb5c94c3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8a206f2618b24cf4d87ef940f997dfaf, type: 2}
     - target: {fileID: 919132149155446097, guid: 82ca7d7740119d04399447f5bb5c94c3, type: 3}
       propertyPath: m_Name
       value: Sc1_DiskOther (1)
@@ -28898,6 +28910,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9d859856bd6b70f4ab7e514cdea22e62, type: 2}
+    - target: {fileID: 4793667328128564592, guid: 9f222b721f137d34fb183de0b1b4e3bc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8a206f2618b24cf4d87ef940f997dfaf, type: 2}
     - target: {fileID: 4971305293177618156, guid: 9f222b721f137d34fb183de0b1b4e3bc, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -52770,7 +52786,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -53173,7 +53189,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -58744,6 +58760,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6a73e215f05793842ac31628234bf871, type: 2}
+    - target: {fileID: 1327066436932907309, guid: 87f9c72976b917e4b8a0b984d50b5845, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8a206f2618b24cf4d87ef940f997dfaf, type: 2}
+    - target: {fileID: 2789269186852521022, guid: 87f9c72976b917e4b8a0b984d50b5845, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8a206f2618b24cf4d87ef940f997dfaf, type: 2}
     - target: {fileID: 3088792564460125536, guid: 87f9c72976b917e4b8a0b984d50b5845, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -124489,7 +124513,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -133216,7 +133240,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
