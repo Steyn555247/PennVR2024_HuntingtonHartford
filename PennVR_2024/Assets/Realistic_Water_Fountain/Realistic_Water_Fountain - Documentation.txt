@@ -1,0 +1,7 @@
+A relaxing realistic water fountain, complete with fountain jet, waterfall, splashes, ripples and sound effects.
+
+Load the Realistic_Water_Fountain.unity for an example scene, or drag Water_Fountain.prefab in the Project window into the Hierarchy window.
+
+Have fun!
+
+If you have any questions then please get in touch at bendurrant@rivermillstudios.com

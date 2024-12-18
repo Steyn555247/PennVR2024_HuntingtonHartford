@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: f75e01b5ccc7cf14f938746d9d680eb9
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Base
+    100002: Middle
+    100004: //RootNode
+    100006: Fountain_Edge_Water
+    100008: Fountain_Edge_Water1
+    100010: Fountain_Edge_Water2
+    100012: Fountain_Edge_Water_A
+    100014: Fountain_Edge_Water_B
+    100016: Fountain_Edge_Water_C
+    100018: Fountain_Water_Jet
+    100020: Fountain_Water_Jet1
+    100022: Fountain_Water_Jet_A
+    100024: Fountain_Water_Jet_B
+    100026: Water_Top
+    100028: locator1
+    100030: Water_Bottom
+    100032: Water_Fountain
+    100034: Fountain_Jet_Tube
+    400000: Base
+    400002: Middle
+    400004: //RootNode
+    400006: Fountain_Edge_Water
+    400008: Fountain_Edge_Water1
+    400010: Fountain_Edge_Water2
+    400012: Fountain_Edge_Water_A
+    400014: Fountain_Edge_Water_B
+    400016: Fountain_Edge_Water_C
+    400018: Fountain_Water_Jet
+    400020: Fountain_Water_Jet1
+    400022: Fountain_Water_Jet_A
+    400024: Fountain_Water_Jet_B
+    400026: Water_Top
+    400028: locator1
+    400030: Water_Bottom
+    400032: Water_Fountain
+    400034: Fountain_Jet_Tube
+    2300000: Base
+    2300002: Middle
+    2300004: Fountain_Edge_Water
+    2300006: Fountain_Edge_Water1
+    2300008: Fountain_Edge_Water2
+    2300010: Fountain_Edge_Water_A
+    2300012: Fountain_Edge_Water_B
+    2300014: Fountain_Edge_Water_C
+    2300016: Fountain_Water_Jet
+    2300018: Fountain_Water_Jet1
+    2300020: Fountain_Water_Jet_A
+    2300022: Fountain_Water_Jet_B
+    2300024: Water_Top
+    2300026: Water_Bottom
+    2300028: Fountain_Jet_Tube
+    3300000: Base
+    3300002: Middle
+    3300004: Fountain_Edge_Water
+    3300006: Fountain_Edge_Water1
+    3300008: Fountain_Edge_Water2
+    3300010: Fountain_Edge_Water_A
+    3300012: Fountain_Edge_Water_B
+    3300014: Fountain_Edge_Water_C
+    3300016: Fountain_Water_Jet
+    3300018: Fountain_Water_Jet1
+    3300020: Fountain_Water_Jet_A
+    3300022: Fountain_Water_Jet_B
+    3300024: Water_Top
+    3300026: Water_Bottom
+    3300028: Fountain_Jet_Tube
+    4300000: Middle
+    4300002: Base
+    4300004: Fountain_Edge_Water
+    4300006: Fountain_Edge_Water1
+    4300008: Fountain_Edge_Water2
+    4300010: Fountain_Edge_Water_A
+    4300012: Fountain_Edge_Water_B
+    4300014: Fountain_Edge_Water_C
+    4300016: Fountain_Water_Jet
+    4300018: Fountain_Water_Jet1
+    4300020: Fountain_Water_Jet_A
+    4300022: Fountain_Water_Jet_B
+    4300024: Water_Top
+    4300026: Water_Bottom
+    4300028: Fountain_Jet_Tube
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
