@@ -296,11 +296,12 @@ MonoBehaviour:
   isSelected: 0
   isTeleporter: 0
   SceneToLoad: 
-  NumberOfThingsToTurnON: 2
+  NumberOfThingsToTurnON: 3
   NumberOfThingsToTurnOFF: 3
   StartOFFClickON:
   - {fileID: 1164505208}
   - {fileID: 360011104}
+  - {fileID: 226725815}
   StartONClickOFF:
   - {fileID: 1069449848}
   - {fileID: 9940304}
@@ -6775,7 +6776,7 @@ MonoBehaviour:
   ObjectWithAnimation: {fileID: 0}
   isSelected: 0
   isTeleporter: 0
-  SceneToLoad: Final Middle Disk
+  SceneToLoad: Final MiddleDisk_after
   NumberOfThingsToTurnON: 1
   NumberOfThingsToTurnOFF: 1
   StartOFFClickON:
@@ -14256,7 +14257,7 @@ MonoBehaviour:
   - {fileID: 1652270387}
   - {fileID: 9940304}
   - {fileID: 1593335512}
-  - {fileID: 0}
+  - {fileID: 1962837399}
   StartONClickOFF:
   - {fileID: 1962837399}
   - {fileID: 30452873}
@@ -33698,7 +33699,7 @@ Transform:
   m_GameObject: {fileID: 1935491493}
   serializedVersion: 2
   m_LocalRotation: {x: 0.06902454, y: 0.37946558, z: 0.33659425, w: -0.85903776}
-  m_LocalPosition: {x: -5, y: 149, z: 257}
+  m_LocalPosition: {x: 73, y: 244, z: 274}
   m_LocalScale: {x: 3.019999, y: 3.02, z: 3.0199995}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34103,7 +34104,7 @@ Light:
   m_Color: {r: 1, g: 0.60355157, b: 0, a: 1}
   m_Intensity: 5
   m_Range: 10
-  m_SpotAngle: 92.660904
+  m_SpotAngle: 53.48575
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -34159,13 +34160,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962837399}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7692078, y: -0.056872137, z: 0.12520878, w: 0.62402546}
-  m_LocalPosition: {x: 19.028, y: 44.974, z: -32.518}
+  m_LocalRotation: {x: 0.92315817, y: 0.016689645, z: 0.05485215, w: 0.38012064}
+  m_LocalPosition: {x: 21.809, y: 42.805, z: -32.294}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 103.03, y: -32.651978, z: -17.76001}
+  m_LocalEulerAnglesHint: {x: 135.574, y: -9.182007, z: -5.828003}
 --- !u!23 &1965638007 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 4761556853610727941, guid: 50d0eeae9a62eca47b1636d0d95ae9c0, type: 3}
