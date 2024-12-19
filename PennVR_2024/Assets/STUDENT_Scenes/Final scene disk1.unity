@@ -1715,13 +1715,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7861854473326295642, guid: d2648b15eb807e24680e207651438f6d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 100204400}
+      addedObject: {fileID: 100204410}
     - targetCorrespondingSourceObject: {fileID: -765014034196182862, guid: d2648b15eb807e24680e207651438f6d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 100204399}
     - targetCorrespondingSourceObject: {fileID: 6723122511911218775, guid: d2648b15eb807e24680e207651438f6d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 100204398}
+      addedObject: {fileID: 100204409}
   m_SourcePrefab: {fileID: 100100000, guid: d2648b15eb807e24680e207651438f6d, type: 3}
 --- !u!1 &100204393 stripped
 GameObject:
@@ -1748,44 +1748,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7861854473326295642, guid: d2648b15eb807e24680e207651438f6d, type: 3}
   m_PrefabInstance: {fileID: 100204392}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &100204398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100204395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9d18d7b5cc9e724a83799b131e0d713, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HighlightMaterial: {fileID: 1623229639}
-  myType: 0
-  ObjectWithAnimation: {fileID: 0}
-  isSelected: 0
-  isTeleporter: 0
-  SceneToLoad: 
-  NumberOfThingsToTurnON: 3
-  NumberOfThingsToTurnOFF: 1
-  StartOFFClickON:
-  - {fileID: 690648637}
-  - {fileID: 44624374}
-  - {fileID: 563603289}
-  StartONClickOFF:
-  - {fileID: 100204393}
-  originalPos: {x: 0, y: 0, z: 0}
-  isGrabbable: 0
-  handGrab: 0
-  theAudioSource: {fileID: 0}
-  theAudioClip: {fileID: 0}
-  thingToMove: {fileID: 0}
-  transformPositionToMoveTo: {fileID: 0}
-  EventToCall:
-    m_PersistentCalls:
-      m_Calls: []
-  thingToChange: {fileID: 0}
-  newParentObject: {fileID: 0}
 --- !u!114 &100204399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1805,13 +1767,15 @@ MonoBehaviour:
   isTeleporter: 0
   SceneToLoad: 
   NumberOfThingsToTurnON: 3
-  NumberOfThingsToTurnOFF: 1
+  NumberOfThingsToTurnOFF: 3
   StartOFFClickON:
   - {fileID: 690648637}
   - {fileID: 44624374}
   - {fileID: 563603289}
   StartONClickOFF:
   - {fileID: 100204393}
+  - {fileID: 812824957}
+  - {fileID: 1050845586}
   originalPos: {x: 0, y: 0, z: 0}
   isGrabbable: 0
   handGrab: 0
@@ -1824,7 +1788,47 @@ MonoBehaviour:
       m_Calls: []
   thingToChange: {fileID: 0}
   newParentObject: {fileID: 0}
---- !u!114 &100204400
+--- !u!114 &100204409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100204395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d18d7b5cc9e724a83799b131e0d713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HighlightMaterial: {fileID: 1623229639}
+  myType: 0
+  ObjectWithAnimation: {fileID: 0}
+  isSelected: 0
+  isTeleporter: 0
+  SceneToLoad: 
+  NumberOfThingsToTurnON: 3
+  NumberOfThingsToTurnOFF: 3
+  StartOFFClickON:
+  - {fileID: 690648637}
+  - {fileID: 44624374}
+  - {fileID: 563603289}
+  StartONClickOFF:
+  - {fileID: 100204393}
+  - {fileID: 812824957}
+  - {fileID: 1050845586}
+  originalPos: {x: 0, y: 0, z: 0}
+  isGrabbable: 0
+  handGrab: 0
+  theAudioSource: {fileID: 0}
+  theAudioClip: {fileID: 0}
+  thingToMove: {fileID: 0}
+  transformPositionToMoveTo: {fileID: 0}
+  EventToCall:
+    m_PersistentCalls:
+      m_Calls: []
+  thingToChange: {fileID: 0}
+  newParentObject: {fileID: 0}
+--- !u!114 &100204410
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1850,8 +1854,8 @@ MonoBehaviour:
   - {fileID: 563603289}
   StartONClickOFF:
   - {fileID: 100204393}
-  - {fileID: 1050845586}
   - {fileID: 812824957}
+  - {fileID: 1050845586}
   originalPos: {x: 0, y: 0, z: 0}
   isGrabbable: 0
   handGrab: 0
@@ -14622,7 +14626,7 @@ Transform:
   m_GameObject: {fileID: 833916486}
   serializedVersion: 2
   m_LocalRotation: {x: 0.06902454, y: 0.37946558, z: 0.33659425, w: -0.85903776}
-  m_LocalPosition: {x: -27569.78, y: 20449.84, z: 5511.097}
+  m_LocalPosition: {x: -5, y: 149, z: 257}
   m_LocalScale: {x: 3.019999, y: 3.02, z: 3.0199995}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31366,7 +31370,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 12
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
