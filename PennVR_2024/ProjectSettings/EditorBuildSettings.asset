@@ -6,12 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
+    path: Assets/STUDENT_Scenes/FinalScene_Lobby.unity
+    guid: d1616bd9436f5da408772c216bf8d0b7
+  - enabled: 0
+    path: Assets/STUDENT_Scenes/Final scene disk1.unity
+    guid: ce2d22aefcfe05846ae5ee112d9daa6a
+  - enabled: 0
     path: Assets/STUDENT_Scenes/FinalScene_SportClub.unity
     guid: 4669a6f4b60ce0c4c854a093ea4eac51
   - enabled: 0
-    path: Assets/STUDENT_Scenes/FinalScene_Lobby.unity
-    guid: d1616bd9436f5da408772c216bf8d0b7
+    path: Assets/STUDENT_Scenes/Final Shower.unity
+    guid: c9edc6e77adb08a4d82d9ea3fbabfb7b
   - enabled: 1
-    path: Assets/STUDENT_Scenes/Final scene disk1.unity
-    guid: ce2d22aefcfe05846ae5ee112d9daa6a
+    path: Assets/STUDENT_Scenes/Final scene disk2.unity
+    guid: cac2c7607a708a54382fc68a06406d70
   m_configObjects: {}
