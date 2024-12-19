@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/STUDENT_Scenes/FinalScene_SportClub.unity
     guid: 4669a6f4b60ce0c4c854a093ea4eac51
-  - enabled: 1
+  - enabled: 0
     path: Assets/STUDENT_Scenes/FinalScene_Lobby.unity
     guid: d1616bd9436f5da408772c216bf8d0b7
+  - enabled: 1
+    path: Assets/STUDENT_Scenes/Final scene disk1.unity
+    guid: ce2d22aefcfe05846ae5ee112d9daa6a
   m_configObjects: {}
