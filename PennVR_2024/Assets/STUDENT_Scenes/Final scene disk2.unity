@@ -277,7 +277,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &9940305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -296,11 +296,12 @@ MonoBehaviour:
   isSelected: 0
   isTeleporter: 0
   SceneToLoad: 
-  NumberOfThingsToTurnON: 2
+  NumberOfThingsToTurnON: 3
   NumberOfThingsToTurnOFF: 3
   StartOFFClickON:
   - {fileID: 1164505208}
   - {fileID: 360011104}
+  - {fileID: 226725815}
   StartONClickOFF:
   - {fileID: 1069449848}
   - {fileID: 9940304}
@@ -2950,7 +2951,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6775,7 +6776,7 @@ MonoBehaviour:
   ObjectWithAnimation: {fileID: 0}
   isSelected: 0
   isTeleporter: 0
-  SceneToLoad: Final Middle Disk
+  SceneToLoad: Final MiddleDisk_after
   NumberOfThingsToTurnON: 1
   NumberOfThingsToTurnOFF: 1
   StartOFFClickON:
@@ -14256,7 +14257,7 @@ MonoBehaviour:
   - {fileID: 1652270387}
   - {fileID: 9940304}
   - {fileID: 1593335512}
-  - {fileID: 0}
+  - {fileID: 1962837399}
   StartONClickOFF:
   - {fileID: 1962837399}
   - {fileID: 30452873}
@@ -14626,7 +14627,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -17581,7 +17582,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -17994,13 +17995,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 956774543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.087, y: -0.34, z: 2.859}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.22300005, y: -0.09500015, z: 2.6689992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1105173235}
-  m_Father: {fileID: 1898523806}
+  m_Father: {fileID: 2069508407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &958330379
 GameObject:
@@ -19773,7 +19774,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -21392,7 +21393,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -25920,7 +25921,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -26705,7 +26706,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -28314,7 +28315,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!111 &1593335513
 Animation:
   m_ObjectHideFlags: 0
@@ -32803,7 +32804,6 @@ Transform:
   - {fileID: 889048924}
   - {fileID: 901414707}
   - {fileID: 2069508407}
-  - {fileID: 956774544}
   - {fileID: 1440517285}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -33074,7 +33074,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -33699,7 +33699,7 @@ Transform:
   m_GameObject: {fileID: 1935491493}
   serializedVersion: 2
   m_LocalRotation: {x: 0.06902454, y: 0.37946558, z: 0.33659425, w: -0.85903776}
-  m_LocalPosition: {x: -5, y: 149, z: 257}
+  m_LocalPosition: {x: 73, y: 244, z: 274}
   m_LocalScale: {x: 3.019999, y: 3.02, z: 3.0199995}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33717,7 +33717,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d20d45a1847b0b241af0dafa89526b60, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.16
+  m_Volume: 0.07
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -33726,7 +33726,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 5
+  MaxDistance: 10
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -34089,7 +34089,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1962837400
 Light:
   m_ObjectHideFlags: 0
@@ -34104,7 +34104,7 @@ Light:
   m_Color: {r: 1, g: 0.60355157, b: 0, a: 1}
   m_Intensity: 5
   m_Range: 10
-  m_SpotAngle: 92.660904
+  m_SpotAngle: 53.48575
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -34160,13 +34160,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962837399}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7692078, y: -0.056872137, z: 0.12520878, w: 0.62402546}
-  m_LocalPosition: {x: 19.028, y: 44.974, z: -32.518}
+  m_LocalRotation: {x: 0.92315817, y: 0.016689645, z: 0.05485215, w: 0.38012064}
+  m_LocalPosition: {x: 21.809, y: 42.805, z: -32.294}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 103.03, y: -32.651978, z: -17.76001}
+  m_LocalEulerAnglesHint: {x: 135.574, y: -9.182007, z: -5.828003}
 --- !u!23 &1965638007 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 4761556853610727941, guid: 50d0eeae9a62eca47b1636d0d95ae9c0, type: 3}
@@ -35791,6 +35791,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1181694724}
+  - {fileID: 956774544}
   m_Father: {fileID: 1898523806}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2071453199 stripped
@@ -36758,7 +36759,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
