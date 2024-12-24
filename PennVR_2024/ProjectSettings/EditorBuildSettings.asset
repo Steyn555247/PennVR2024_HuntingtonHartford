@@ -23,8 +23,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/STUDENT_Scenes/Final scene disk2.unity
     guid: cac2c7607a708a54382fc68a06406d70
-  - enabled: 1
-    path: Assets/STUDENT_Scenes/Final MiddleDisk_3.unity
+  - enabled: 0
+    path: Assets/STUDENT_Scenes/Final MiddleDisk_after.unity
     guid: 5e4edb7015f31ed41ad4a7c893871bae
   - enabled: 1
     path: Assets/STUDENT_Scenes/FinalScene_Suite.unity
@@ -37,6 +37,9 @@ EditorBuildSettings:
     guid: 9357f3fe1f8c40a47a94870aebeef9a0
   - enabled: 1
     path: Assets/STUDENT_Scenes/Final MiddleDisk_2.unity
-    guid: d150be50cd1036a41bd0caae305e546b
+    guid: 33cc59836ed55c745b83f12ca7ee7f4b
+  - enabled: 1
+    path: Assets/STUDENT_Scenes/Final MiddleDisk_3.unity
+    guid: 487424a1c96665647bced6a119cccbb3
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8ce81e0bf68ac3e4abd42d74b53a395e, type: 2}
